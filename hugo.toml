@@ -1,0 +1,34 @@
+baseURL = "/"
+title = "Zijie Zhou"
+theme = "PaperMod"
+languageCode = "en-us"
+pagerSize = 5
+weight: 100
+
+[params]
+  author = "Zijie Zhou"
+  description = "A Hugo blog using PaperMod"
+  defaultTheme = "light"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
