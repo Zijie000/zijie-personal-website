@@ -1,9 +1,9 @@
-baseURL = "/"
+baseURL = "https://zijiezhou.me/"
 title = "Zijie Zhou"
 theme = "PaperMod"
 languageCode = "en-us"
 pagerSize = 5
-weight: 100
+weight = 100
 
 [params]
   author = "Zijie Zhou"
