@@ -3,9 +3,11 @@ title: "About Me"
 date: 2025-02-14
 layout: "about"
 description: ""
-image: "/images/webprofile.jpg" # 你的照片路径
+image: "/images/webprofile.jpg" 
 ---
+
 {{< about image="/images/webprofile.jpg" >}}
+
 Hello, I'm Zijie Zhou, a software engineer specializing in backend development(java, golang) and cloud computing/native. I'm also interested in functional programming languages like Lisp and Scala—their expressive elegance captures the essence of computer languages. My favorite sports are hiking and karate. I enjoy reading phenomenological and existentialist works, particularly those by Husserl, Heidegger, and Sartre.
 
 
@@ -19,6 +21,10 @@ zzjoliver@outlook.com
 (U.S) +1 7038269289
 
 (中国) +86 18930851256
+
+##### GitHub
+
+https://github.com/Zijie000
 
 ##### For standard resume, please refer to the top posts
 ##### 标准简历参见置顶posts

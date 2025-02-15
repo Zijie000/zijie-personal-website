@@ -1,7 +1,7 @@
-<div style="display: flex; align-items: start; gap: 20px;">
-    <div style="flex: 1;">
-      {{ .Inner | markdownify}}
+<div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <img src="{{ .Get "image" }}" alt="Profile Picture" style="width: 400px; height: 300px; border-radius: 0; margin-bottom: 20px;">
+    <div style="max-width: 600px;">
+      {{ .Inner | markdownify }}
     </div>
-    <img src="{{ .Get "image" }}" alt="Profile Picture" style="width: 350px; border-radius: 0;">
   </div>
   
