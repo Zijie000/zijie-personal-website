@@ -3,13 +3,12 @@ title = "Zijie Zhou"
 theme = "PaperMod"
 languageCode = "en-us"
 pagerSize = 5
-weight = 100
 
 [params]
   author = "Zijie Zhou"
   description = "A Hugo blog using PaperMod"
   defaultTheme = "light"
-  ShowReadingTime = true
+  ShowReadingTime = false
   ShowShareButtons = true
   ShowPostNavLinks = true
 

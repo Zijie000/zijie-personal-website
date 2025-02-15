@@ -1,0 +1,7 @@
+<div style="display: flex; align-items: start; gap: 20px;">
+    <div style="flex: 1;">
+      {{ .Inner | markdownify}}
+    </div>
+    <img src="{{ .Get "image" }}" alt="Profile Picture" style="width: 350px; border-radius: 0;">
+  </div>
+  
