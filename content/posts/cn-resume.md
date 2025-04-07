@@ -9,5 +9,9 @@ weight: 3
 
 ### 点击查看我的简历👀
 
-[cn-resume.pdf](/pdf/cn-resume.pdf)
+#### 组合1: 以太坊智能合约 + 云计算/云原生
+[cn-resume-1.pdf](/pdf/cn-resume-1.pdf)
+
+#### 组合2: Spark/Scala + 云计算/云原生
+[cn-resume-2.pdf](/pdf/cn-resume-2.pdf)
 

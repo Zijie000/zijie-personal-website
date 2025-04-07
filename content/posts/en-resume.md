@@ -8,4 +8,9 @@ weight: 2
 <!--more-->
 
 ### Click to check my resume👀
-[en-resume.pdf](/pdf/en-resume.pdf)
+
+#### Type 1: Ethereum Smart Contract + Cloud Computing/Cloud Native
+[en-resume-1.pdf](/pdf/en-resume-1.pdf)
+
+#### Type 2: Spark/Scala + Cloud Computing/Cloud Native
+[en-resume-2.pdf](/pdf/en-resume-2.pdf)
