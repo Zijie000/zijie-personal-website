@@ -1,0 +1,7 @@
+.profile img {
+  transform: none !important;
+  width: 160px !important;
+  height: 160px !important;
+  object-fit: cover;
+}
+

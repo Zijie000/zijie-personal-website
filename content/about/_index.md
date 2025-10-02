@@ -3,23 +3,25 @@ title: "About Me"
 date: 2025-02-14
 layout: "about"
 description: ""
-image: "/images/webprofile.jpg" 
+image: "/images/webprofile-20251001.jpg" 
 ---
 
-{{< about image="/images/webprofile.jpg" >}}
+{{< about image="/images/webprofile-20251001.jpg" >}}
 
-Hello, I'm Zijie Zhou, a software engineer specializing in development of Java, Golang, ethereum smart contract, and cloud computing/native. I'm also interested in functional programming languages like Lisp and Scala—their expressive elegance captures the essence of computer languages. My favorite sports are hiking and karate. I enjoy reading phenomenological and existentialist works, particularly those by Husserl, Heidegger, and Sartre.
+Hello, I’m Zijie Zhou, currently living in Boston. I am applying for a PhD, with research interests in Type Theory, Category Theory, Functional Programming Languages, and Homotopy Type Theory (HoTT). I also enjoy phenomenology and existentialism, and I like reading the works of Husserl, Heidegger, and Merleau-Ponty.
 
+Favorite novelists: Haruki Murakami, Albert Camus, Leo Tolstoy
 
-你好，我是周子杰，我是一名软件工程师，擅长java, golang开发，以太坊智能合约，云计算/云原生。我也对函数式语言感兴趣，如lisp，scala等，它们的表达方式很有美感，表现出了计算机语言的本质。我最喜欢的运动是远足和空手道。我很喜欢阅读胡塞尔，海德格尔，萨特等现象学和存在主义。
+Favorite sports: Karate, Hiking
 
-
-##### Email 邮箱
-zzjoliver@outlook.com
+##### Email
 
 zhou.zijie@northeastern.edu
 
-##### Tel 电话
+zzjoliver@outlook.com
+
+
+##### Tel
 (U.S) +1 7038269289
 
 (中国) +86 18930851256
@@ -28,7 +30,5 @@ zhou.zijie@northeastern.edu
 
 https://github.com/Zijie000
 
-##### For standard resume, please refer to the top posts
-##### 标准简历参见置顶posts
 
 {{< /about >}}

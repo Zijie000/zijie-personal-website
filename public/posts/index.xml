@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Zijie Zhou</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://localhost:49160/posts/</link>
     <description>Recent content in Posts on Zijie Zhou</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Feb 2025 17:50:10 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:49160/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>这里是周子杰的站点   “Zijie Zhou Website, The ZZJ Way.”</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <title>Zijie Zhou Website, The ZZJ Way.</title>
+      <link>http://localhost:49160/posts/my-first-post/</link>
       <pubDate>Sun, 09 Feb 2025 17:05:10 -0500</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;On Feb 9th 2025, Zijie created his first personal website.&lt;/p&gt;</description>
+      <guid>http://localhost:49160/posts/my-first-post/</guid>
+      <description>&lt;p&gt;📍On Feb 9th 2025, Zijie created his personal website.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>[Pinned 置顶📌]My English Resume</title>
-      <link>http://localhost:1313/posts/en-resume/</link>
+      <title>[Pinned 📌]My english resume for career(Not for PhD)</title>
+      <link>http://localhost:49160/posts/en-resume/</link>
       <pubDate>Sat, 15 Feb 2025 17:50:10 -0500</pubDate>
-      <guid>http://localhost:1313/posts/en-resume/</guid>
+      <guid>http://localhost:49160/posts/en-resume/</guid>
       <description></description>
     </item>
     <item>
-      <title>[Pinned 置顶📌]我的中文简历</title>
-      <link>http://localhost:1313/posts/cn-resume/</link>
+      <title>[Pinned 📌]我的中文简历(Not for PhD)</title>
+      <link>http://localhost:49160/posts/cn-resume/</link>
       <pubDate>Sat, 15 Feb 2025 17:50:10 -0500</pubDate>
-      <guid>http://localhost:1313/posts/cn-resume/</guid>
+      <guid>http://localhost:49160/posts/cn-resume/</guid>
       <description></description>
     </item>
   </channel>

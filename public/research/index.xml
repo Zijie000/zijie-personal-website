@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Research on Zijie Zhou</title>
+    <link>http://localhost:49160/research/</link>
+    <description>Recent content in Research on Zijie Zhou</description>
+    <generator>Hugo -- 0.143.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:49160/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Number Project &amp; Cats </title>
+      <link>http://localhost:49160/research/number-project/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49160/research/number-project/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Number Project (with Prof. Robin Hillyard), 2024–present&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://coe.northeastern.edu/people/hillyard-robin/&#34;&gt;Robin Hillyard&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;current-work&#34;&gt;Current Work&lt;/h2&gt;
+&lt;p&gt;✅ I integrated Cats😺 into the Number project by adding cats-kernel/core and providing type class instances: Eq/Order/Show for Rational, Order/Show/Eq for ExactNumber, and PartialOrder/Eq/Show for Number (favoring PartialOrder to respect fuzzy/NaN semantics).&lt;/p&gt;
+&lt;p&gt;✅ I wrote a Discipline-based law tests for them.&lt;/p&gt;
+&lt;p&gt;✅ I separated the error scalars of the fuzzy number into two distinct monoids—more precisely, CommutativeMonoids—one is CommutativeMonoid[AbsSigma] and the other is CommutativeMonoid[RelSigma].
+Decoupled parallel: nominal accumulation and sigma folding run independently.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Well-typed programs don’t go wrong</title>
+      <link>http://localhost:49160/research/well-typed/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49160/research/well-typed/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Use OCaml as Parser/AST: to represent the program, Typechecker: to check whether the type is correct, Evaluator: to execute step by step according to the operational semantics, Error Cases: to find the error program.📝&lt;/p&gt;
+&lt;h2 id=&#34;current-work&#34;&gt;Current Work&lt;/h2&gt;
+&lt;p&gt;Writing&amp;hellip;.&lt;/p&gt;
+&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;
+&lt;p&gt;Writing&amp;hellip;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Profunctor Optics</title>
+      <link>http://localhost:49160/research/profunctor-optics/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49160/research/profunctor-optics/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Unify the lens/prisms/isos strategies with ProFunctor; cover audits of Cats/Monocle practices. 👁️
+Incremental: Scala 3 implementation + rule checking repository + minimal counterexample for &amp;ldquo;when to break fix&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;current-work&#34;&gt;Current Work&lt;/h2&gt;
+&lt;p&gt;Writing&amp;hellip;.&lt;/p&gt;
+&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;
+&lt;p&gt;Writing&amp;hellip;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

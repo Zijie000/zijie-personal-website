@@ -1,0 +1,12 @@
+<div class="pub-item">
+  <div class="pub-title"><strong>{{ .Get "title" }}</strong></div>
+  <div class="pub-authors">{{ .Get "authors" }}</div>
+  <div class="pub-venue">{{ .Get "venue" }} ({{ .Get "year" }})</div>
+  <div class="pub-links">
+    {{ with .Get "pdf" }}<a href="{{ . }}">PDF</a>{{ end }}
+    {{ with .Get "doi" }} · <a href="https://doi.org/{{ . }}">DOI</a>{{ end }}
+    {{ with .Get "code" }} · <a href="{{ . }}">Code</a>{{ end }}
+    {{ with .Get "poster" }} · <a href="{{ . }}">Poster</a>{{ end }}
+  </div>
+</div>
+

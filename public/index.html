@@ -11,7 +11,7 @@
 <meta name="description" content="A Hugo blog using PaperMod">
 <meta name="author" content="Zijie Zhou">
 <link rel="canonical" href="http://localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.bea6f2819661f53de4868bb9e79f6199c64e4fcfeed5757d9f7a0920a1b3ff0a.css" integrity="sha256-vqbygZZh9T3khou5559hmcZOT8/u1XV9n3oJIKGz/wo=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -20,6 +20,7 @@
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml">
+<link rel="alternate" type="application/json" href="http://localhost:1313/index.json">
 <link rel="alternate" hreflang="en" href="http://localhost:1313/">
 <noscript>
     <style>
@@ -74,8 +75,23 @@
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/posts/" title="Posts">
-                    <span>Posts</span>
+                <a href="http://localhost:1313/cv/" title="CV">
+                    <span>CV</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/research/" title="Research">
+                    <span>Research</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/publications/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/posts/" title="Blog">
+                    <span>Blog</span>
                 </a>
             </li>
             <li>
@@ -86,44 +102,57 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
+<main class="main"><div class="profile">
+    <div class="profile_inner"><img draggable="false" src="http://localhost:1313/images/webprofile-20251001.jpg?v=20251001" alt="profile" title="profile"
+            height="160" width="160" />
+        <h1>Zijie Zhou</h1>
+        <span>Research Areas: Type Theory, Category Theory, Functional Programming Language</span><div class="social-icons" >
+    <a href="/cv" target="_blank" rel="noopener noreferrer me"
+        title="CV">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M4 4v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8.342a2 2 0 0 0-.602-1.43l-4.44-4.342A2 2 0 0 0 13.56 2H6a2 2 0 0 0-2 2z" />
+    <path d="M9 13h6" />
+    <path d="M9 17h3" />
+    <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+</svg>
+    </a>
+    <a href="https://github.com/Zijie000" target="_blank" rel="noopener noreferrer me"
+        title="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
+    <a href="mailto:zzjoliver@outlook.com" target="_blank" rel="noopener noreferrer me"
+        title="Email">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 21" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+    <polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+    </a>
+</div>
 
-<article class="first-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">这里是周子杰的站点   “Zijie Zhou Website, The ZZJ Way.”
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>On Feb 9th 2025, Zijie created his first personal website.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-02-09 17:05:10 -0500 EST'>February 9, 2025</span>&nbsp;·&nbsp;Zijie Zhou</footer>
-  <a class="entry-link" aria-label="post link to 这里是周子杰的站点   “Zijie Zhou Website, The ZZJ Way.”" href="http://localhost:1313/posts/my-first-post/"></a>
-</article>
+        <div class="buttons">
+            <a class="button" href="/cv/" rel="noopener" title="CV">
+                <span class="button-inner">
+                    CV
+                </span>
+            </a>
+            <a class="button" href="/publications/" rel="noopener" title="Publications">
+                <span class="button-inner">
+                    Publications
+                </span>
+            </a>
+        </div>
+    </div>
+</div>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">[Pinned 置顶📌]My English Resume
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p></p>
-  </div>
-  <footer class="entry-footer"><span title='2025-02-15 17:50:10 -0500 EST'>February 15, 2025</span>&nbsp;·&nbsp;Zijie Zhou</footer>
-  <a class="entry-link" aria-label="post link to [Pinned 置顶📌]My English Resume" href="http://localhost:1313/posts/en-resume/"></a>
-</article>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">[Pinned 置顶📌]我的中文简历
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p></p>
-  </div>
-  <footer class="entry-footer"><span title='2025-02-15 17:50:10 -0500 EST'>February 15, 2025</span>&nbsp;·&nbsp;Zijie Zhou</footer>
-  <a class="entry-link" aria-label="post link to [Pinned 置顶📌]我的中文简历" href="http://localhost:1313/posts/cn-resume/"></a>
-</article>
     </main>
     
 <footer class="footer">

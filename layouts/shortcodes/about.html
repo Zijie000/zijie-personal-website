@@ -1,7 +1,14 @@
-<div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-    <img src="{{ .Get "image" }}" alt="Profile Picture" style="width: 400px; height: 300px; border-radius: 0; margin-bottom: 20px;">
-    <div style="max-width: 600px;">
-      {{ .Inner | markdownify }}
-    </div>
+<div style="display:flex;flex-direction:column;align-items:center;text-align:center;">
+  {{ $img := .Get "image" }}
+  {{ $ver := .Site.Params.assetVersion }}
+  {{ if $ver }}
+    {{ $sep := "?" }}
+    {{ if in $img "?" }}{{ $sep = "&" }}{{ end }}
+    {{ $img = printf "%s%sv=%s" $img $sep $ver }}
+  {{ end }}
+  <img src="{{ $img }}" alt="Profile Picture"
+       style="width:160px;height:160px;border-radius:50%;object-fit:cover;margin-bottom:16px;">
+  <div style="max-width:720px;">
+    {{ .Inner | markdownify }}
   </div>
-  
+</div>
