@@ -10,6 +10,8 @@ Number Project (with Prof. Robin Hillyard), 2024–present
 
 [Robin Hillyard](https://coe.northeastern.edu/people/hillyard-robin/)
 
+[Number GitHub Repo](https://github.com/rchillyard/Number)
+
 ## Current Work
 ✅ I integrated Cats😺 into the Number project by adding cats-kernel/core and providing type class instances: Eq/Order/Show for Rational, Order/Show/Eq for ExactNumber, and PartialOrder/Eq/Show for Number (favoring PartialOrder to respect fuzzy/NaN semantics).
 
