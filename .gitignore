@@ -1,0 +1,24 @@
+## General system files
+.DS_Store
+Thumbs.db
+
+## Hugo build output
+public/
+resources/_gen/
+hugo_stats.json
+.hugo_build.lock
+
+## Build artifacts & caches
+*.log
+*.tmp
+
+## Editor temp files
+*.swp
+*.swo
+
+# Ignore Python virtualenvs if created in repo root
+venv/
+env/
+__pycache__/
+
+
